@@ -1,0 +1,104 @@
+<resources>
+
+    <string name="app_name">SJob</string>
+    <string name="job_title_label">Заголовок</string>
+    <string name="job_details_label">Details</string>
+    <string name="job_done_label">Done?</string>
+    <string name="add_button_text">Добавить</string>
+    <string name="phone_number_text">Номер телефона</string>
+    <string name="address_text">Укажите адрес</string>
+    <string name="cost_text">Стоимость</string>
+    <string name="switcher_private_info_text">Добавить приватную информацию</string>
+    <string name="subtitle_text">Укажите все необходимые детали</string>
+    <string name="order_title_text">Заголовок заказа</string>
+    <string name="warning_fields_empty">Все поля должны быть заполнены</string>
+    <string name="email">Email</string>
+    <string name="sign_up">Зарегистрироваться</string>
+    <string name="already_registered">Зарегистрированы?</string>
+    <string name="password">Пароль</string>
+    <string name="first_name">Имя</string>
+    <string name="last_name">Фамилия</string>
+    <string name="complete_register">Завершить регистрацию</string>
+    <string name="warning_incorrect_email">Введите корректный адресс</string>
+    <string name="auth_failed">\"Не получилось создать аккаунт\"</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="log_in">Войти</string>
+    <string name="show_phone_number">Показать персональную информацию</string>
+    <string name="no_orders">Похоже, что в данный момент нет доступных заказов</string>
+    <string name="login_error">Не получилось войти в аккаунт</string>
+    <string name="title">Заголовок</string>
+    <string name="details">Детали</string>
+    <string name="forget_password">Забыли пароль</string>
+    <string name="subtitle">Детали</string>
+    <string name="time">Время</string>
+    <string name="order_length">Длительность заказа (в часах)</string>
+    <string name="in_progress">Выполняемые заказы</string>
+    <string name="all_orders">Все заказы</string>
+    <string name="given">Отданные заказы</string>
+    <string name="user">Пользовательская информация</string>
+    <string name="add_order">Создать заказ</string>
+    <string name="help">Справка</string>
+    <string name="how_to_execute_title">Выполнить заказ:</string>
+    <string name="how_to_execute">1. Перейдите в раздел всех заказов\n2. Выберете любой заказ и нажмите на него\n3. Вы попадете на страничку с информацией о заказе.\n4. Если вы не хотите выполнять этот заказ нажмите на кнопку назад на вашем устройстве.\n5. Если же вы хотите продолжить нажмите на круглую кнопку добавить к выполняемым.\n6. Далее выполните условия заказа,полсе чего заказчик и исполнитель должны подтвердить выполнение заказа.\n7. Проверьте на вашем счету прибавилось денег!!!</string>
+    <string name="how_to_give_title">Разместить заказ:</string>
+    <string name="how_to_give">1. Перейдите в раздел создать заказ\n2. Заполните все поля достоверной информацией.\n3. Далее нажмите на кнопку создать заказ.\n4. Ожиайте исполнителя.\n5. После выполнения заказа перейдите в раздел мои заказы, найдите ожидающий подтверждения заказ и подтвердите его.\n6. С вашего счета деньги перечислятся на счет исполнителя ;)</string>
+
+
+    <string name="slide_1_title">Simple Job!</string>
+    <string name="slide_1_desc">Простой и понятный рынок услуг!</string>
+
+    <string name="slide_2_title">Исполнителю</string>
+    <string name="slide_2_desc">Вы можете подзаработать денег, просто выполняя заказы других пользователей!</string>
+
+    <string name="slide_3_title">Заказчику</string>
+    <string name="slide_3_desc">Вы можете оставить заказ, и его выполнят в указанные сроки!</string>
+
+    <string name="slide_4_title">SJob!</string>
+    <string name="slide_4_desc">Добро пожаловать!</string>
+
+    <string name="play_again_desc">To see the welcome slider again, goto Settings -> apps -> welcome slider -> clear data</string>
+    <string name="play_again">Play Again</string>
+    <string name="next">Далее</string>
+    <string name="skip">Пропустить</string>
+    <string name="start">Круто!</string>
+    <string name="signin">Войти</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_response">ResponseActivity</string>
+    <string name="user_photo">Фото пользователя</string>
+    <string name="about_text_label">Обо мне:</string>
+    <string name="response_message_label">Сообщение:</string>
+    <string name="search_placeholder">Поиск</string>
+    <string name="order_number">Номер заказа:</string>
+    <string name="see_order_responses">Просмотреть ответы исполнителей</string>
+    <string name="order_status">Статус заказа:</string>
+    <string name="order_description">Описание заказа:</string>
+    <string name="order_cost">Стоимость заказа:</string>
+    <string name="hide_phone_number">Скрыть персональную информацию</string>
+    <string name="phone_number">Телефон:</string>
+    <string name="addres">Адрес:</string>
+    <string name="details_label">Детали:</string>
+    <string name="take_order">Принять заказ</string>
+    <string name="status_expired">Срок выполнения истек</string>
+    <string name="status_done">Успешно выполнен</string>
+    <string name="status_open">Открыт</string>
+    <string name="status_indone">Выполняется</string>
+    <string name="status_waitforaccept">Ожидает подтверждения заказчиком</string>
+    <string name="all_users">Все исполнители</string>
+    <string name="user_status_busy">занят</string>
+    <string name="user_status_free">свободен</string>
+    <string name="edit_profile">Редактировать профиль</string>
+    <string name="update_profile">Сохранить</string>
+    <string name="make_photo">Сделать фото</string>
+    <string name="select_photo">Выбрать фото</string>
+    <string name="card_required_title">Необходимо привязать карту</string>
+    <string name="card_required_message">Прежде чем принять заказ, вам необходимо привязать банковскую карту для вывода средств</string>
+    <string name="connect_card_accept">Привязать</string>
+    <string name="order_response_message">Сообщение заказчику</string>
+</resources>

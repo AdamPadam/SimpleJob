@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/help"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:paddingLeft="16dp"
+              android:paddingRight="16dp">
+
+
+    <TextView
+        android:id="@+id/do_ord"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/how_to_execute_title"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        />
+
+    <TextView
+        android:id="@+id/descript_do"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/how_to_execute"/>
+
+    <TextView
+        android:id="@+id/new_or"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/how_to_give_title"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        />
+
+    <TextView
+        android:id="@+id/drscript_new"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=
+            "@string/how_to_give"/>
+</LinearLayout>

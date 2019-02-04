@@ -1,0 +1,67 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:divider="@drawable/divider"
+    android:dividerHeight="8dp"
+    android:orientation="vertical"
+    android:padding="23dp"
+    android:showDividers="middle">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/userPhoto"
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="15dp"
+            android:src="@color/cardview_dark_background" />
+
+        <TextView
+            android:id="@+id/userName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:layout_weight="0"
+            android:lineSpacingExtra="24sp"
+            android:textAllCaps="true"
+            android:text="Имя Исполнителя"
+            android:textAlignment="center"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:isScrollContainer="false"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/aboutLabel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="20dp"
+            android:text="@string/about_text_label"
+            android:textAppearance="@style/AppTheme.LabelText" />
+
+        <com.uncopt.android.widget.text.justify.JustifiedTextView
+            android:id="@+id/aboutText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:isScrollContainer="false"
+            android:lineSpacingExtra="6sp"
+            android:text="Disrupt fashion axe 90's quinoa +1 Neutra. IronyDisrupt fashion axe 90's quinoa +1 Neutra. IronyDisrupt fashion axe 90's quinoa +1 Neutra. IronyDisrupt fashion axe 90's quinoa +1 Neutra. IronyDisrupt fashion axe 90's quinoa +1 Neutra. IronyDisrupt fashion axe 90's quinoa +1 Neutra. IronyDisrupt fashion axe 90's quinoa +1 Neutra. IronyDisrupt fashion axe 90's quinoa +1 Neutra. IronyDisrupt fashion axe 90's quinoa +1 Neutra. Irony"
+            android:textAppearance="@style/AppTheme.NormalText" />
+
+    </LinearLayout>
+
+</LinearLayout>

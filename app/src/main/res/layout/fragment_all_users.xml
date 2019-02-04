@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/green_main"
+        android:elevation="0dp"
+        android:padding="20dp">
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="10dp"
+            app:contentPadding="6dp">
+
+            <EditText
+                android:id="@+id/search_user"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:ems="10"
+                android:hint="@string/search_placeholder"
+                android:inputType="text"
+                android:selectAllOnFocus="true"
+                android:singleLine="true"
+                android:textAlignment="center" />
+        </android.support.v7.widget.CardView>
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/no_users"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:gravity="center"
+        android:text="Зарегистрированные исполнители отсутствуют"
+        android:visibility="gone" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:visibility="gone" />
+
+    <com.codedevstudio.orders.utils.StrippedRecyclerView
+        android:id="@+id/all_users_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="16dp"
+        app:Color="@color/divider"
+        app:Thickness="3" />
+</LinearLayout>

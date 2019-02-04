@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/all_orders"
+            android:icon="@drawable/ic_format_list_bulleted_48px"
+            android:checked="true"
+            android:title="Все заказы"/>
+        <item
+            android:id="@+id/all_users"
+            android:icon="@drawable/ic_person_48px"
+            android:title="@string/all_users"/>
+        <item
+            android:id="@+id/add_order"
+            android:icon="@drawable/ic_add_48px"
+            android:title="Создать"/>
+        <item
+            android:id="@+id/given"
+            android:icon="@drawable/ic_playlist_add_check_48px"
+            android:title="Отданные"/>
+        <item
+            android:id="@+id/in_progress"
+            android:icon="@drawable/ic_playlist_add_check_48px"
+            android:title="Выполняемые"/>
+        <item
+            android:id="@+id/user"
+            android:icon="@drawable/ic_person_48px"
+            android:title="Профиль"/>
+        <item
+        android:id="@+id/help"
+        android:icon="@drawable/ic_info_outline_48px"
+        android:title="Справка"/>
+        <item
+            android:id="@+id/sign_out"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Выход"/>
+    </group>
+
+</menu>
